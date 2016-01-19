@@ -142,6 +142,7 @@
   <project path="external/Etar-Calendar" name="platform_external_Etar-Calendar" remote="github" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk" />
+  <project path="external/F-Droid" name="platform_external_F-Droid" groups="pdk-fs" remote="github" />
   <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/fec" name="platform/external/fec" groups="pdk" />
