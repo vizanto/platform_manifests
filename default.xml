@@ -139,6 +139,7 @@
   <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" />
   <project path="external/emma" name="platform/external/emma" groups="pdk" />
   <project path="external/esd" name="platform/external/esd" groups="pdk" />
+  <project path="external/Etar-Calendar" name="platform_external_Etar-Calendar" remote="github" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk" />
   <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
@@ -440,7 +441,6 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" />
