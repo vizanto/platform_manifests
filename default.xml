@@ -439,6 +439,7 @@
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom,pdk" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
+  <project path="kernel/google/marlin" name="kernel_google_marlin" remote="github" />
   <project path="kernel/tests" name="kernel/tests" />
   <project path="libcore" name="platform_libcore" groups="pdk" remote="github" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
