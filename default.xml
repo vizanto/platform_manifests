@@ -438,6 +438,7 @@
   <project path="kernel/google/marlin" name="kernel_google_marlin" remote="github" />
   <project path="kernel/huawei/angler" name="kernel_huawei_angler" remote="github" />
   <project path="kernel/lge/bullhead" name="kernel_lge_bullhead" remote="github" />
+  <project path="kernel/linaro/hikey" name="kernel_linaro_hikey" remote="github" />
   <project path="kernel/tests" name="kernel/tests" />
   <project path="libcore" name="platform_libcore" groups="pdk" remote="github" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
