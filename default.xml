@@ -65,7 +65,7 @@
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" />
   <project path="device/google/marlin" name="device_google_marlin" groups="device,marlin" remote="github" />
   <project path="device/google/marlin-kernel" name="device/google/marlin-kernel" groups="device,marlin" clone-depth="1" />
-  <project path="device/google/muskie" name="device/google/muskie" groups="device,muskie" />
+  <project path="device/google/muskie" name="device_google_muskie" groups="device,muskie" remote="github" />
   <project path="device/google/taimen" name="device_google_taimen" groups="device,taimen" remote="github" />
   <project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" clone-depth="1" />
   <project path="device/google/wahoo" name="device_google_wahoo" groups="device,wahoo" remote="github" />
