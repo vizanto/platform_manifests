@@ -442,7 +442,7 @@
   <project path="kernel/tests" name="kernel/tests" />
   <project path="libcore" name="platform_libcore" groups="pdk" remote="github" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
-  <project path="packages/apps/Backup" name="platform_packages_apps_Backup" remote="github" />
+  <!--<project path="packages/apps/Backup" name="platform_packages_apps_Backup" remote="github" />-->
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" />
   <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" groups="pdk-fs" remote="github" />
