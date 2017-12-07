@@ -10,6 +10,11 @@
   <remote  name="github"
            fetch="https://github.com/copperheados/"
            revision="refs/tags/OPM1.171019.011.2017.12.06.06" />
+  <remote  name="microg"
+           fetch="https://github.com/microg" />
+  <remote  name="opengapps"
+           fetch="https://github.com/opengapps/"  />
+
   <default revision="refs/tags/android-8.1.0_r1"
            remote="aosp"
            sync-j="4" />
@@ -624,4 +629,16 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <project path="packages/apps/GmsCore" name="android_packages_apps_GmsCore" remote="microg" revision="master" />
+  <project path="packages/apps/GsfProxy" name="android_packages_apps_GsfProxy" remote="microg" revision="master" />
+
+  <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" />
+  <!-- arm64 depends on arm -->
+  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/x86" name="x86" clone-depth="1" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="1" revision="master" remote="opengapps" />
+
+  <include name="remove.xml" />
 </manifest>
