@@ -2,6 +2,7 @@
 <manifest>
   <!-- Removed AOSP Repos -->
   <!-- Unused Repos -->
+  <remove-project name="platform_packages_apps_Updater" />
   <!-- Google's Device tree Repos -->
   <remove-project name="device/generic/arm64" />
   <remove-project name="device/generic/armv7-a-neon" />
@@ -23,18 +24,10 @@
   <remove-project name="device/google/accessory/arduino" />
   <remove-project name="device/google/accessory/demokit" />
   <remove-project name="device/google/atv" />
-  <remove-project name="device/google/contexthub" />
-  <remove-project name="device/google/vrservices" />
-  <remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
-  <remove-project name="device/linaro/bootloader/edk2" />
-  <remove-project name="device/linaro/bootloader/OpenPlatformPkg" />
-  <remove-project name="device/linaro/hikey" />
   <remove-project name="device/sample" />
   <!-- Prebuilt Kernel Repos -->
   <remove-project name="device/linaro/hikey-kernel" />
   <!-- Package system Apps Repos -->
   <remove-project name="platform/packages/apps/DevCamera" />
-  <remove-project name="platform/packages/apps/Email" />
   <remove-project name="platform/packages/apps/SoundRecorder" />
-  <remove-project name="platform/packages/apps/UnifiedEmail" />
 </manifest>
