@@ -10,6 +10,9 @@
   <remote  name="github"
            fetch="https://github.com/copperheados/"
            revision="refs/tags/OPM1.171019.011.2017.12.12.16" />
+  <remote  name="vizanto"
+           fetch="https://github.com/vizanto/"
+           revision="o-v" />
   <remote  name="microg"
            fetch="https://github.com/microg/" />
   <remote  name="opengapps"
@@ -68,7 +71,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device,pdk" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs,pdk" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" />
-  <project path="device/google/marlin" name="device_google_marlin" groups="device,marlin" remote="github" />
+  <project path="device/google/marlin" name="device_google_marlin" groups="device,marlin" remote="vizanto" />
   <project path="device/google/muskie" name="device_google_muskie" groups="device,muskie" remote="github" />
   <project path="device/google/taimen" name="device_google_taimen" groups="device,taimen" remote="github" />
   <project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" clone-depth="1" />
@@ -363,7 +366,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="github" />
-  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="o-v" />
+  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="vizanto" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
